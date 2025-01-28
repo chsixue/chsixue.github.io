@@ -75,7 +75,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "努力度过每一天 <br> 大橙子 @Wechat"
-sidebar-avatar: https://github.com/chsixue/chsixue.github.io/blob/master/img/gufudad.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/gufudad.png
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
