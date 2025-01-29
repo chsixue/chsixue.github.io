@@ -11,6 +11,10 @@ baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 # Publish posts or collection documents with a future date.
 future: true
 
+# SNS settings
+RSS: false
+bilibili_username: "688490584"
+bilibili_url: "https://space.bilibili.com/688490584"
 
 
 # Build settings
