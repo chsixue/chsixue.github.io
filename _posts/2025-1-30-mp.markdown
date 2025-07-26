@@ -2,7 +2,7 @@
 layout:     post
 title:      "你好，2025"
 subtitle:   "\"时光的流转，生活的变迁\""
-date:       2025-01-01 00:00:00
+date:       2025-01-01 04:00:00
 author:     "陈思学"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
