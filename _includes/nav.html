@@ -13,7 +13,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ site.baseurl }}/"><i class="fa fa-pencil"></i> {{ site.title }}</a>
+                <a class="navbar-brand" href="{{ site.baseurl }}/"><i class="fa fa-pencil" aria-hidden="true"></i> {{ site.title }}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -27,7 +27,7 @@
                             <a href="{{ site.baseurl }}/archive.html">Archive</a>
                         </li>
                         {% for page in site.pages %}
-                        {% if page.title and page.hide-in-nav != true %}
+                        {% if page.title and page.title != 'Archive' and page.hide-in-nav != true %}
                         <li>
                             <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                         </li>
